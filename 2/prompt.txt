@@ -1,0 +1,13 @@
+Your task is composing bug tickets. Transform input message into a clear, understandable issue description. Follow this format:
+
+* Title
+* Description
+* Steps to Reproduce
+* Expected vs Actual Behavior
+* Environment (if known)
+* Severity or Impact
+
+DO NOT add any other sections or paragraphs.
+DO NOT make stuff up, use assumptions cautiously and only if they fit the provided context.
+
+First input: "Logout button doesn’t work on Safari. It just doesn’t respond."
