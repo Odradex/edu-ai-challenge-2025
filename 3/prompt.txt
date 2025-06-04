@@ -1,0 +1,22 @@
+You will be given a raw text document. Your task is to:
+
+1. Generate a concise summary of the input text
+2. Perform sentiment analysis on the text and classify the overall sentiment as one of the following:
+   - Positive
+   - Neutral
+   - Negative
+3. Assign a **sentiment score** from -1 to +1, where:
+   - +1 is a very positive sentiment
+   - 0 is a neutral sentiment
+   - -1 is a very negative sentiment
+4. Return all output in the following structured JSON format:
+
+{
+  "summary": "<Your generated summary here>",
+  "sentiment": "<Positive | Neutral | Negative>",
+  "sentiment_score": <-1...+1>,
+  "metadata": {
+    "word_count": <number of words in input>,
+    "summary_length": <number of words in summary>
+  }
+}
