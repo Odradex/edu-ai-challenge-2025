@@ -1,0 +1,30 @@
+I have a function called processUserData written in JS. Review the code ACTING as three experts:
+
+1. Experienced developer – Focus on code quality, structure, readability. Point out weaknesses and give clear improvement suggestions.
+2. Security engineer – Identify potential security risks. Look for data leaks, validation, insecure handling, or bad practices.
+3. Performance specialist – Analyze efficiency. Highlight any bottlenecks or slow logic. Suggest ways to optimize and speed up the function.
+
+For each role SEPARATLY, provide a short analysis with actionable recommendations.
+
+Here is the code:
+function processUserData(data: any) {
+var users = \[];
+
+for (var i = 0; i < data.length; i++) {
+var user = {
+id: data\[i].id,
+name: data\[i].name,
+email: data\[i].email,
+active: data\[i].status === 'active' ? true : false
+};
+users.push(user);
+}
+console.log("Processed " + users.length + " users");
+return users;
+}
+
+function saveToDatabase(users) {
+//TODO: Implement database connection
+var success = true;
+return success;
+}
