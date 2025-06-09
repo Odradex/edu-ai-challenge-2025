@@ -1,0 +1,20 @@
+Running Enigma Machine Tests...
+
+✓ Basic encryption and decryption should be symmetric
+✓ Plugboard should work symmetrically
+✓ Complex plugboard configuration should work
+✓ Different rotor positions should work
+✓ Ring settings should work correctly
+✓ Combined settings should work together
+✓ Long messages should encrypt/decrypt correctly
+✓ Non-alphabetic characters should pass through unchanged
+✓ Plugboard swap function should work correctly
+✓ Rotor stepping should work correctly
+✓ Rotor notch detection should work
+✓ Enigma should be self-inverse (encrypt twice returns original)
+✓ Different rotor orders should produce different results
+✓ Lowercase input should be converted to uppercase
+✓ Empty message should return empty string
+
+Test Results: 15 passed, 0 failed
+Coverage: 100.0%
