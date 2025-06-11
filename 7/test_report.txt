@@ -1,0 +1,332 @@
+
+> seabattle-modern@1.0.0 test:coverage
+> jest --coverage
+
+PASS tests/Player.test.js
+PASS tests/Game.test.js
+  ● Console
+
+    console.log
+      Setting up Sea Battle game...
+
+      at Game.log [as initialize] (src/Game.js:36:15)
+
+    console.log
+      
+      Game initialized! Ships placed: 3 ships of length 3
+
+      at Game.log [as initialize] (src/Game.js:54:15)
+
+    console.log
+      Let's play Sea Battle!
+
+      at Game.log [as initialize] (src/Game.js:55:15)
+
+    console.log
+      Try to sink the 3 enemy ships.
+
+      at Game.log [as initialize] (src/Game.js:56:15)
+
+    console.log
+      Setting up Sea Battle game...
+
+      at Game.log [as initialize] (src/Game.js:36:15)
+
+    console.error
+      Failed to initialize game: Failed to setup human player ships
+
+      58 |       return true;
+      59 |     } catch (error) {
+    > 60 |       console.error('Failed to initialize game:', error.message);
+         |               ^
+      61 |       return false;
+      62 |     }
+      63 |   }
+
+      at Game.error [as initialize] (src/Game.js:60:15)
+      at Object.initialize (tests/Game.test.js:56:33)
+
+    console.log
+      Setting up Sea Battle game...
+
+      at Game.log [as initialize] (src/Game.js:36:15)
+
+    console.log
+      
+      Game initialized! Ships placed: 3 ships of length 3
+
+      at Game.log [as initialize] (src/Game.js:54:15)
+
+    console.log
+      Let's play Sea Battle!
+
+      at Game.log [as initialize] (src/Game.js:55:15)
+
+    console.log
+      Try to sink the 3 enemy ships.
+
+      at Game.log [as initialize] (src/Game.js:56:15)
+
+    console.log
+      Setting up Sea Battle game...
+
+      at Game.log [as initialize] (src/Game.js:36:15)
+
+    console.log
+      
+      Game initialized! Ships placed: 3 ships of length 3
+
+      at Game.log [as initialize] (src/Game.js:54:15)
+
+    console.log
+      Let's play Sea Battle!
+
+      at Game.log [as initialize] (src/Game.js:55:15)
+
+    console.log
+      Try to sink the 3 enemy ships.
+
+      at Game.log [as initialize] (src/Game.js:56:15)
+
+    console.log
+      Setting up Sea Battle game...
+
+      at Game.log [as initialize] (src/Game.js:36:15)
+
+    console.log
+      
+      Game initialized! Ships placed: 3 ships of length 3
+
+      at Game.log [as initialize] (src/Game.js:54:15)
+
+    console.log
+      Let's play Sea Battle!
+
+      at Game.log [as initialize] (src/Game.js:55:15)
+
+    console.log
+      Try to sink the 3 enemy ships.
+
+      at Game.log [as initialize] (src/Game.js:56:15)
+
+    console.log
+      Setting up Sea Battle game...
+
+      at Game.log [as initialize] (src/Game.js:36:15)
+
+    console.log
+      
+      Game initialized! Ships placed: 3 ships of length 3
+
+      at Game.log [as initialize] (src/Game.js:54:15)
+
+    console.log
+      Let's play Sea Battle!
+
+      at Game.log [as initialize] (src/Game.js:55:15)
+
+    console.log
+      Try to sink the 3 enemy ships.
+
+      at Game.log [as initialize] (src/Game.js:56:15)
+
+    console.log
+      Setting up Sea Battle game...
+
+      at Game.log [as initialize] (src/Game.js:36:15)
+
+    console.log
+      
+      Game initialized! Ships placed: 3 ships of length 3
+
+      at Game.log [as initialize] (src/Game.js:54:15)
+
+    console.log
+      Let's play Sea Battle!
+
+      at Game.log [as initialize] (src/Game.js:55:15)
+
+    console.log
+      Try to sink the 3 enemy ships.
+
+      at Game.log [as initialize] (src/Game.js:56:15)
+
+    console.log
+      Setting up Sea Battle game...
+
+      at Game.log [as initialize] (src/Game.js:36:15)
+
+    console.log
+      
+      Game initialized! Ships placed: 3 ships of length 3
+
+      at Game.log [as initialize] (src/Game.js:54:15)
+
+    console.log
+      Let's play Sea Battle!
+
+      at Game.log [as initialize] (src/Game.js:55:15)
+
+    console.log
+      Try to sink the 3 enemy ships.
+
+      at Game.log [as initialize] (src/Game.js:56:15)
+
+    console.log
+      
+      --- CPU's Turn ---
+
+      at Game.log [as handleCPUTurn] (src/Game.js:139:15)
+
+    console.log
+      CPU guesses: 95
+
+      at Game.log [as handleCPUTurn] (src/Game.js:144:15)
+
+    console.log
+      CPU MISS at 95.
+
+      at Game.log [as handleCPUTurn] (src/Game.js:152:17)
+
+    console.log
+      Setting up Sea Battle game...
+
+      at Game.log [as initialize] (src/Game.js:36:15)
+
+    console.log
+      
+      Game initialized! Ships placed: 3 ships of length 3
+
+      at Game.log [as initialize] (src/Game.js:54:15)
+
+    console.log
+      Let's play Sea Battle!
+
+      at Game.log [as initialize] (src/Game.js:55:15)
+
+    console.log
+      Try to sink the 3 enemy ships.
+
+      at Game.log [as initialize] (src/Game.js:56:15)
+
+    console.log
+      
+      --- CPU's Turn ---
+
+      at Game.log [as handleCPUTurn] (src/Game.js:139:15)
+
+    console.error
+      Error during CPU turn: Test error
+
+      160 |       
+      161 |     } catch (error) {
+    > 162 |       console.error('Error during CPU turn:', error.message);
+          |               ^
+      163 |       // Switch back to human turn to continue game
+      164 |       this.currentTurn = 'human';
+      165 |     }
+
+      at Game.error [as handleCPUTurn] (src/Game.js:162:15)
+      at Object.handleCPUTurn (tests/Game.test.js:141:18)
+
+    console.log
+      Setting up Sea Battle game...
+
+      at Game.log [as initialize] (src/Game.js:36:15)
+
+    console.log
+      
+      Game initialized! Ships placed: 3 ships of length 3
+
+      at Game.log [as initialize] (src/Game.js:54:15)
+
+    console.log
+      Let's play Sea Battle!
+
+      at Game.log [as initialize] (src/Game.js:55:15)
+
+    console.log
+      Try to sink the 3 enemy ships.
+
+      at Game.log [as initialize] (src/Game.js:56:15)
+
+    console.log
+      PLAYER MISS.
+
+      at Game.log [as handleHumanTurn] (src/Game.js:122:17)
+
+    console.log
+      Setting up Sea Battle game...
+
+      at Game.log [as initialize] (src/Game.js:36:15)
+
+    console.log
+      
+      Game initialized! Ships placed: 3 ships of length 3
+
+      at Game.log [as initialize] (src/Game.js:54:15)
+
+    console.log
+      Let's play Sea Battle!
+
+      at Game.log [as initialize] (src/Game.js:55:15)
+
+    console.log
+      Try to sink the 3 enemy ships.
+
+      at Game.log [as initialize] (src/Game.js:56:15)
+
+    console.log
+      Error: Input must be exactly two digits (e.g., 00, 34, 98)
+
+      at Game.log [as handleHumanTurn] (src/Game.js:103:17)
+
+    console.log
+      Setting up Sea Battle game...
+
+      at Game.log [as initialize] (src/Game.js:36:15)
+
+    console.log
+      
+      Game initialized! Ships placed: 3 ships of length 3
+
+      at Game.log [as initialize] (src/Game.js:54:15)
+
+    console.log
+      Let's play Sea Battle!
+
+      at Game.log [as initialize] (src/Game.js:55:15)
+
+    console.log
+      Try to sink the 3 enemy ships.
+
+      at Game.log [as initialize] (src/Game.js:56:15)
+
+    console.log
+      PLAYER MISS.
+
+      at Game.log [as handleHumanTurn] (src/Game.js:122:17)
+
+    console.log
+      You already guessed that location!
+
+      at Game.log [as handleHumanTurn] (src/Game.js:109:17)
+
+PASS tests/Board.test.js
+PASS tests/Ship.test.js
+-----------|---------|----------|---------|---------|--------------------------------------
+File       | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s                    
+-----------|---------|----------|---------|---------|--------------------------------------
+All files  |   61.41 |    65.62 |    74.5 |   63.38 |                                      
+ Board.js  |   81.39 |    89.18 |   92.85 |   83.95 | 58,91,151,212-229                    
+ Game.js   |   70.58 |    53.84 |      75 |   70.58 | 47,70-90,117-119,129,147-149,188-196 
+ GameUI.js |       0 |        0 |       0 |       0 | 8-143                                
+ Player.js |   74.19 |    67.56 |     100 |   76.66 | 72,114-123,150-163                   
+ Ship.js   |     100 |      100 |     100 |     100 |                                      
+-----------|---------|----------|---------|---------|--------------------------------------
+
+Test Suites: 4 passed, 4 total
+Tests:       57 passed, 57 total
+Snapshots:   0 total
+Time:        0.787 s, estimated 1 s
+Ran all test suites.
