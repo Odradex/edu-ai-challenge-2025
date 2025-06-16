@@ -1,0 +1,17 @@
+{
+  "name": "service-analyzer",
+  "version": "1.0.0",
+  "description": "A Node.js console application to generate a multi-perspective report on a service using OpenAI.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "inquirer": "^9.2.1",
+    "openai": "^4.0.0"
+  },
+  "author": "",
+  "license": "ISC"
+} 
