@@ -26,7 +26,7 @@ A Node.js console application that takes a service name or description and uses 
 
 ## Configuration
 
-1.  Create a `.env` file in the root of the `service-analyzer` directory.
+1.  Create a `.env` file in the root of the directory.
 2.  Add your OpenAI API key to the `.env` file:
     ```
     OPENAI_API_KEY=your_super_secret_api_key
